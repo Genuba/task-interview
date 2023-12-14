@@ -26,7 +26,6 @@ public class InterviewTask {
         StringBuilder output = new StringBuilder();
 
         for (char c : charArray) {
-            System.out.println("c = " + Character.toString(c) + " current = " + Character.toString(current) + " found = " + found);
             if (current == c && !found) {
                 found = true;
             } else if (current != c) {
